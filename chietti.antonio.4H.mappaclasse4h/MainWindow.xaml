@@ -1,0 +1,62 @@
+﻿<Window x:Class="chietti.antonio._4H.mappaclasse4h.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:chietti.antonio._4H.mappaclasse4h"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid ShowGridLines="True" RenderTransformOrigin="0.5,0.5" Margin="25,30,10,13">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Button Grid.Column="6" Grid.Row="6" Margin="5" Click="Button_Click">GHINELLI</Button>
+        <Button Grid.Column="5" Grid.Row="6" Margin="5" Click="Button_Click1">CASADEI</Button>
+        <Button Grid.Column="4" Grid.Row="6" Margin="5" Click="Button_Click2">MORELLI</Button>
+        <Button Grid.Column="3" Grid.Row="6" Margin="5,0,5,5" Click="Button_Click3" >ZHANG</Button>
+        <Button Grid.Column="2" Grid.Row="6" Margin="5" Click="Button_Click4">ISLAMOVSKI</Button>
+
+        <Button Grid.Column="6" Grid.Row="4" Margin="5" Click="Button_Click5">RICCI | ROSSINI</Button>
+        <Button Grid.Column="5" Grid.Row="4" Margin="5" Click="Button_Click6">TUMIDEI | CANCELLIERI</Button>
+        <Button Grid.Column="4" Grid.Row="4" Margin="5,5,5,5" Click="Button_Click7">BASILICO</Button>
+        <Button Grid.Column="3" Grid.Row="4" Margin="5" Click="Button_Click8">CHIETTI</Button>
+        <Button Grid.Column="2" Grid.Row="4" Margin="5" Click="Button_Click9">DYRMYSHI | DERVISHI</Button>
+
+        <Button Grid.Column="6" Grid.Row="8" Margin="9,6,0,5" Click="Button_Click10" RenderTransformOrigin="0.574,-2.688">CAPANNA</Button>
+        <Button Grid.Column="5" Grid.Row="8" Margin="5" Click="Button_Click11">CAU</Button>
+        <Button Grid.Column="4" Grid.Row="8" Margin="5" Click="Button_Click12">LOMBARDI</Button>
+        <Button Grid.Column="3" Grid.Row="8" Margin="5,5,5,5" Click="Button_Click13">SALVI</Button>
+        <Button Grid.Column="2" Grid.Row="8" Margin="5" Click="Button_Click14">POMPA</Button>
+        <Button Grid.Column="8" Grid.Row="10" Margin="5,5,5,5" Click="Button_Click15" RenderTransformOrigin="1.122,0.146">PROF</Button>
+        <Button Grid.Column="2" Grid.Row="2" Margin="5,5,5,5" Click="Button_Click16">PRIORI</Button>
+        <Button Grid.Column="3" Grid.Row="2" Margin="5" Click="Button_Click17">CAPICCHIONI</Button>
+        <Button Grid.Column="4" Grid.Row="2" Margin="5" Click="Button_Click18">BURIOLI</Button>
+
+
+    </Grid>
+</Window>
